@@ -160,7 +160,7 @@ if __name__ == '__main__':
     colouring = 3  # Change to 4 when necessary
     graph_type = 81  # Change to 144 when necessary
     make_plots(colouring, graph_type)
-    # make_plot(colouring) will print the array of probabilities (1 to 14 inclusive with a step of 0.5)
+    # make_plots(colouring, graph_type) will print the array of probabilities (1 to 14 inclusive with a step of 0.5)
     # It will also print the computation cost of all the graphs for the given colouring in the same order as above
 
     # To note, the main three functions are check_colouring, graph_colouring, and check_colouring_safe. These function
