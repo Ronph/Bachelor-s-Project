@@ -66,13 +66,7 @@ if __name__ == '__main__':
                 colourRepartition[currentColour] = [i]
         print(colourRepartition, '\n')'''
 
-
-    # Find largest clique
-    G = pickle.load(open('graphs81/graph81_80.pickle', 'rb'))
-    cliques = nx.enumerate_all_cliques(G)
-    print(max(cliques, key=len))
-
-    # For the Test Graph:
+    # For the a specific graph:
     '''G = pickle.load(open('graphs144 and a half/graph144_31.pickle', 'rb'))
 
     colours, graph = DSatur(G)
